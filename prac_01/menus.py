@@ -1,9 +1,10 @@
 
+MENU = "Menu \n H: Hello \n G: Goodbye \n Q: Quit"
+
 first_name = str(input("Please enter your first name: "))
 surname = str(input("Please enter your surname name: "))
-Menu = "Menu \n H: Hello \n G: Goodbye \n Q: Quit"
 
-print(Menu)
+print(MENU)
 choice = input("> ").upper()
 while choice != "Q":
    if choice == "H":
@@ -12,6 +13,6 @@ while choice != "Q":
         print(f"Goodbye {first_name} {surname}.")
    else:
        print("Invalid choice.")
-   print(Menu)
+   print(MENU)
    choice = input("> ").upper()
 print("Finished.")
