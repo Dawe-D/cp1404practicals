@@ -3,7 +3,7 @@ CP1404 Prac 6
 Languages
 Time
 Estimate = 30 mins
-Actual   = 40 mins
+Actual   = 30 mins
 """
 
 from prac_06.programing_language import ProgrammingLanguage
